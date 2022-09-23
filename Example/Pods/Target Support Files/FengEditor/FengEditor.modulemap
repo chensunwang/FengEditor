@@ -1,0 +1,6 @@
+framework module FengEditor {
+  umbrella header "FengEditor-umbrella.h"
+
+  export *
+  module * { export * }
+}

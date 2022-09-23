@@ -31,7 +31,7 @@
 		1ED5AF14BDBD3436197D517F /* Pods-FengEditor_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FengEditor_Tests.release.xcconfig"; path = "Target Support Files/Pods-FengEditor_Tests/Pods-FengEditor_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		28E05D5B056B667FD49B1DB5 /* Pods-FengEditor_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FengEditor_Tests.debug.xcconfig"; path = "Target Support Files/Pods-FengEditor_Tests/Pods-FengEditor_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		2AD581D6E4EC887686D6218F /* Pods-FengEditor_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FengEditor_Example.release.xcconfig"; path = "Target Support Files/Pods-FengEditor_Example/Pods-FengEditor_Example.release.xcconfig"; sourceTree = "<group>"; };
-		4BAC22EAB3B7691FBBBF9D22 /* FengEditor.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FengEditor.podspec; path = ../FengEditor.podspec; sourceTree = "<group>"; };
+		4BAC22EAB3B7691FBBBF9D22 /* FengEditor.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FengEditor.podspec; path = ../FengEditor.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* FengEditor_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FengEditor_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,8 +43,8 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		74903CCCC43019A8A4E54FC2 /* Pods_FengEditor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FengEditor_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CCEA4E7D4009B10EF9F60557 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		DB194E1775C4A4E3D9CB6DD0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		CCEA4E7D4009B10EF9F60557 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DB194E1775C4A4E3D9CB6DD0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E10452D0F457EC093AB558E2 /* Pods_FengEditor_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FengEditor_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7F0E414CBE5C8E39617A3DE /* Pods-FengEditor_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FengEditor_Example.debug.xcconfig"; path = "Target Support Files/Pods-FengEditor_Example/Pods-FengEditor_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -147,7 +147,6 @@
 				28E05D5B056B667FD49B1DB5 /* Pods-FengEditor_Tests.debug.xcconfig */,
 				1ED5AF14BDBD3436197D517F /* Pods-FengEditor_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
