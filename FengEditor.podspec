@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FengEditor'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'Wei feng post special editor.'
 
 # This description is used to generate tags and improve search results.
@@ -33,9 +33,9 @@ Pod::Spec.new do |s|
 
   s.source_files = 'FengEditor/Classes/**/*'
   
-   s.resource_bundles = {
-     'FengEditor' => ['FengEditor/Assets/*']
-   }
+  s.resource_bundles = {
+    'FengEditor' => ['FengEditor/Assets/*']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
@@ -49,7 +49,7 @@ end
 
 # 2.进入Example文件夹，执行pod install
 
-# 3.版本号更改  s.version = '0.0.1'
+# 3.版本号更改  s.version = '0.0.2'
 
 # 验证类库 cd 到含有FengEditor.podspec 文件下
 # 4.本地校验  pod lib lint FengEditor.podspec --use-libraries --allow-warnings --verbose --no-clean
@@ -58,8 +58,8 @@ end
 ## 5.1  git add .
 ## 5.2  git commit -m 'change pod version'
 ## 5.3  git push
-## 5.4  git tag -a 0.0.1 -m 'add tag 0.0.1'
-## 5.5  git push origin 0.0.1
+## 5.4  git tag -a 0.0.2 -m 'add tag 0.0.2'
+## 5.5  git push origin 0.0.2
 
 # 6.远程校验  pod spec lint FengEditor.podspec --use-libraries --allow-warnings --verbose --no-clean
 

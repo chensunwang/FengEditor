@@ -1,6 +1,6 @@
 {
   "name": "FengEditor",
-  "version": "0.1.0",
+  "version": "0.0.2",
   "summary": "Wei feng post special editor.",
   "description": "This editor is used for Posting and has rich editing functions.",
   "homepage": "https://github.com/chensunwang/FengEditor",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/chensunwang/FengEditor.git",
-    "tag": "0.1.0"
+    "tag": "0.0.2"
   },
   "platforms": {
     "ios": "11.0"
