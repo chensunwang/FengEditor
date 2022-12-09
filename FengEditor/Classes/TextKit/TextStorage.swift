@@ -4,7 +4,7 @@ import UIKit
 
 /// Implemented by a class taking care of handling attachments for the storage.
 ///
-protocol TextStorageAttachmentsDelegate: class {
+protocol TextStorageAttachmentsDelegate: AnyObject {
 
     /// Provides images for attachments that are part of the storage
     ///
@@ -189,7 +189,7 @@ open class TextStorage: NSTextStorage {
                 attachment.delegate = self
             case let attachment as MediaAttachment:
                 attachment.delegate = self
-            case let attachment as EmotionAttachment:
+            case _ as EmotionAttachment:
                 break
             default:
                 guard let image = textAttachment.image else {
@@ -407,10 +407,16 @@ private extension TextStorage {
     ///
     func ensureMatchingFontAndParagraphHeaderStyles(beforeApplying attrs: [NSAttributedString.Key: Any], at range: NSRange) -> [NSAttributedString.Key: Any] {
         let newStyle = attrs[.paragraphStyle] as? ParagraphStyle
-        let oldStyle = textStore.attribute(.paragraphStyle, at: range.location, effectiveRange: nil) as? ParagraphStyle
-
         let newLevel = newStyle?.headers.last?.level ?? .none
-        let oldLevel = oldStyle?.headers.last?.level ?? .none
+        
+        guard range.length > 0 else {
+            return fixFontAttribute(in: attrs, headerLevel: newLevel)
+        }
+        guard let oldStyle = textStore.attribute(.paragraphStyle, at: range.location, effectiveRange: nil) as? ParagraphStyle else {
+            return fixFontAttribute(in: attrs, headerLevel: newLevel)
+        }
+        
+        let oldLevel = oldStyle.headers.last?.level ?? .none
 
         guard oldLevel != newLevel else {
             return attrs

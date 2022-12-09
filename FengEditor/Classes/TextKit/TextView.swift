@@ -4,7 +4,7 @@ import Foundation
 
 // MARK: - TextViewAttachmentDelegate
 //
-public protocol TextViewAttachmentDelegate: class {
+public protocol TextViewAttachmentDelegate: AnyObject {
 
     /// This method requests from the delegate the image at the specified URL.
     ///
@@ -72,7 +72,7 @@ public protocol TextViewAttachmentDelegate: class {
 
 // MARK: - TextViewAttachmentImageProvider
 //
-public protocol TextViewAttachmentImageProvider: class {
+public protocol TextViewAttachmentImageProvider: AnyObject {
 
     /// Indicates whether the current Attachment Renderer supports a given NSTextAttachment instance, or not.
     ///
@@ -110,7 +110,7 @@ public protocol TextViewAttachmentImageProvider: class {
 
 // MARK: - TextViewFormattingDelegate
 //
-public protocol TextViewFormattingDelegate: class {
+public protocol TextViewFormattingDelegate: AnyObject {
 
     /// Called a text view command toggled a style.
     ///
@@ -1485,7 +1485,7 @@ open class TextView: UITextView {
         let attachment = ImageAttachment(identifier: identifier, url: url)
         attachment.delegate = storage
         attachment.image = placeHolderImage
-        attachment.alignment = .none
+        attachment.alignment = ImageAttachment.Alignment.none
         replace(at: range, with: attachment)
         return attachment
     }

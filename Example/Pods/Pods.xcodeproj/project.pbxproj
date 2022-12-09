@@ -109,7 +109,7 @@
 		915B4884C2CFAB31DC8D253B683027AE /* HTMLParagraphFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A921A22367957C6607B687E07AFC3F29 /* HTMLParagraphFormatter.swift */; };
 		9174BFFD86BD4B32C246F8541F90CA5B /* NSAttributedString+Lists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC059203DD7131CB338B1E0B093A1E9 /* NSAttributedString+Lists.swift */; };
 		959F5471A640F799C5216A5859D01657 /* PreFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17842CA7399A7CE98075E7114A37EEC /* PreFormatter.swift */; };
-		963AE42462F2C9F9441E87FA1366C907 /* FengEditor-FengEditor in Resources */ = {isa = PBXBuildFile; fileRef = 8972E4AED555E2E531D50E10E04AB56B /* FengEditor-FengEditor */; };
+		963AE42462F2C9F9441E87FA1366C907 /* FengEditor.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8972E4AED555E2E531D50E10E04AB56B /* FengEditor.bundle */; };
 		9858036141331F6F5D2A6EC5B462253A /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA973EBA995EAE5B49F7626AEAC1D05C /* Node.swift */; };
 		9D9A041E61442EE1402D74506DAEC691 /* UILayoutPriority+Swift4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0A91ECB33B09895AA4901074E3A273 /* UILayoutPriority+Swift4.swift */; };
 		9EC809008503957AE0FD97DE3F0BAC8C /* PluginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898EBB223B34879AC4EAC95525E1DB45 /* PluginManager.swift */; };
@@ -217,7 +217,7 @@
 		0F4E52DA7DFE3AF01A6D2383721AD8FC /* InAttributesConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InAttributesConverter.swift; sourceTree = "<group>"; };
 		15C63F1DDB56113F5D34E49602036F48 /* Blockquote.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Blockquote.swift; sourceTree = "<group>"; };
 		1791A093BF3E7C94775CD639A64C69D1 /* ShortcodeAttribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ShortcodeAttribute.swift; sourceTree = "<group>"; };
-		18761D573825168D0D69BFA2C3E87FFF /* Pods-FengEditor_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FengEditor_Tests"; path = Pods_FengEditor_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18761D573825168D0D69BFA2C3E87FFF /* Pods_FengEditor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FengEditor_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		198FF4407D0294E27C13BD6782C7B641 /* CiteElementConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CiteElementConverter.swift; sourceTree = "<group>"; };
 		19AAF869D6ED5F2C9A3F168911A9F8CD /* Figure.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Figure.swift; sourceTree = "<group>"; };
 		1B8835D99B944021524F452EA9D102D5 /* FormatBarDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FormatBarDelegate.swift; sourceTree = "<group>"; };
@@ -298,27 +298,27 @@
 		81960B31DC7DAA090554ED26E541C0AF /* ElementAttributeConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ElementAttributeConverter.swift; sourceTree = "<group>"; };
 		83AA813AC590D61AF94A1BC44B87164B /* CSSParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CSSParser.swift; sourceTree = "<group>"; };
 		84FBDC9BAD4CE6C2EEA252A27A2F20A4 /* ItalicStringAttributeConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ItalicStringAttributeConverter.swift; sourceTree = "<group>"; };
-		8566285D9D3FCFB50FD61BC6C59A2616 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		8566285D9D3FCFB50FD61BC6C59A2616 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		87D9675C10CC461B8161B2D2C1B6DBE0 /* HTMLStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HTMLStorage.swift; sourceTree = "<group>"; };
 		890D9AC5768D1C365E96FDFF42A0279A /* LayoutManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LayoutManager.swift; sourceTree = "<group>"; };
 		8966B4FB893E95710A6AE651B273D482 /* EditorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EditorView.swift; sourceTree = "<group>"; };
-		8972E4AED555E2E531D50E10E04AB56B /* FengEditor-FengEditor */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "FengEditor-FengEditor"; path = FengEditor.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		8972E4AED555E2E531D50E10E04AB56B /* FengEditor.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FengEditor.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		898EBB223B34879AC4EAC95525E1DB45 /* PluginManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PluginManager.swift; sourceTree = "<group>"; };
 		8A7CB28D717119EFC48DA80B9975B09B /* DocumentReadingOptionKey+Swift4.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "DocumentReadingOptionKey+Swift4.swift"; sourceTree = "<group>"; };
 		92E84BE17C7A18261EDCA868BCF4049A /* HTMLParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HTMLParser.swift; sourceTree = "<group>"; };
 		93CB89BEABAF1D5D297B1689C2370354 /* ElementConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ElementConverter.swift; sourceTree = "<group>"; };
 		9C18725ED0B6CC7942364654BEC640C0 /* LinkFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LinkFormatter.swift; sourceTree = "<group>"; };
 		9C89382A655B89B1BEDD96B12851DB0B /* LiFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LiFormatter.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A07D7026128780DF928B0F54A3A1809B /* InAttributeConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InAttributeConverter.swift; sourceTree = "<group>"; };
 		A0C87AF9CAF16E2AC0491B6B35A2914B /* ColorFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ColorFormatter.swift; sourceTree = "<group>"; };
 		A0DC8006C13979143C53992E17A3D14E /* NSMutableAttributedString+ParagraphProperty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NSMutableAttributedString+ParagraphProperty.swift"; sourceTree = "<group>"; };
 		A34E42F4646FA334FB8F3E9553CE9CD0 /* CSSAttribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CSSAttribute.swift; sourceTree = "<group>"; };
-		A370480968A7FEED2F1A9B42E97ABBCB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		A370480968A7FEED2F1A9B42E97ABBCB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		A38AC444B8E9DEFC2F461E0D1F40C7BE /* UIStackView+Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIStackView+Helpers.swift"; sourceTree = "<group>"; };
 		A541F39CB7FF121071FE89E0F460A61C /* ItalicCSSAttributeMatcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ItalicCSSAttributeMatcher.swift; sourceTree = "<group>"; };
 		A86BC7A74CD5FFD32A213EEB09376226 /* Dictionary+AttributedStringKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Dictionary+AttributedStringKey.swift"; sourceTree = "<group>"; };
-		A8B6320543330D7DB1F71939EB2A4892 /* Pods-FengEditor_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FengEditor_Example"; path = Pods_FengEditor_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8B6320543330D7DB1F71939EB2A4892 /* Pods_FengEditor_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FengEditor_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8DA4E0109971BDD77655089DB013C92 /* UIColor+Parsers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIColor+Parsers.swift"; sourceTree = "<group>"; };
 		A921A22367957C6607B687E07AFC3F29 /* HTMLParagraphFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HTMLParagraphFormatter.swift; sourceTree = "<group>"; };
 		A9CF42BA5A7ED4D629439FF0FD2FCF2A /* Pods-FengEditor_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FengEditor_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -359,7 +359,7 @@
 		D52BE33CB9AF79878AA56B96C5AEB0E8 /* Pods-FengEditor_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FengEditor_Tests-dummy.m"; sourceTree = "<group>"; };
 		D81A453040E3EB9F396FA4018C137AA6 /* ParagraphPropertyConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ParagraphPropertyConverter.swift; sourceTree = "<group>"; };
 		D9CB9B20AA413C0FD2CF3AE50ECB7046 /* UnderlineElementAttributeConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UnderlineElementAttributeConverter.swift; sourceTree = "<group>"; };
-		D9D7886D246E59DBDAC2D44F3DD60A36 /* FengEditor.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FengEditor.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D9D7886D246E59DBDAC2D44F3DD60A36 /* FengEditor.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = FengEditor.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DA2A9A0F2BEB5825386D34F2588382A8 /* CiteStringAttributeConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CiteStringAttributeConverter.swift; sourceTree = "<group>"; };
 		DC7503D4D481FAE9A25619A0E3E5735A /* Attribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Attribute.swift; sourceTree = "<group>"; };
 		DD40D77296D146E54B88CB7F7D371A17 /* CodeFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CodeFormatter.swift; sourceTree = "<group>"; };
@@ -367,7 +367,7 @@
 		DE4B51922E62BC4FDA2A2BDC9DD41E0A /* Pods-FengEditor_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FengEditor_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		DF3D83846DB6D2A87D19640D71768A67 /* Processor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Processor.swift; sourceTree = "<group>"; };
 		DFBA79C43976B4BEF1117552E21413B1 /* NSRange+Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NSRange+Helpers.swift"; sourceTree = "<group>"; };
-		E10320C6CBCC7159B59415EC758E389D /* FengEditor */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FengEditor; path = FengEditor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E10320C6CBCC7159B59415EC758E389D /* FengEditor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FengEditor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4BE6FDA67CB649F990A8D6840DAB900 /* NSMutableAttributedString+ReplaceOcurrences.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NSMutableAttributedString+ReplaceOcurrences.swift"; sourceTree = "<group>"; };
 		E6E83DF47013083CDBF8F4E0EB3CD8A1 /* Array+ShortcodeAttribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Array+ShortcodeAttribute.swift"; sourceTree = "<group>"; };
 		E787FCC983152248FC88E805DAE6CA46 /* HTMLConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HTMLConverter.swift; sourceTree = "<group>"; };
@@ -435,7 +435,6 @@
 				F6EA2E6F78ADF2E9E431E6ED454B9D65 /* Base */,
 				50747A6BB6F2D2246A0EEEEC4645C5AB /* Implementations */,
 			);
-			name = AttributesToStringAttributes;
 			path = AttributesToStringAttributes;
 			sourceTree = "<group>";
 		};
@@ -444,7 +443,6 @@
 			children = (
 				D81A453040E3EB9F396FA4018C137AA6 /* ParagraphPropertyConverter.swift */,
 			);
-			name = Base;
 			path = Base;
 			sourceTree = "<group>";
 		};
@@ -454,7 +452,6 @@
 				85D140FE66450FF31AA1A4F4C5394087 /* Base */,
 				C2FE5A38C7032BCDFBEBC8E97470BE8A /* Implementations */,
 			);
-			name = ElementsToHTML;
 			path = ElementsToHTML;
 			sourceTree = "<group>";
 		};
@@ -465,7 +462,6 @@
 				93CB89BEABAF1D5D297B1689C2370354 /* ElementConverter.swift */,
 				2BD378AACAC51E9978E074EBF088C942 /* FormatterElementConverter.swift */,
 			);
-			name = Base;
 			path = Base;
 			sourceTree = "<group>";
 		};
@@ -523,7 +519,6 @@
 				C9F28741505909D4C1F500EC3A39C3A9 /* TextListFormatter.swift */,
 				B1BCFE35907E17EBD3AA0288020B026C /* UnderlineFormatter.swift */,
 			);
-			name = Implementations;
 			path = Implementations;
 			sourceTree = "<group>";
 		};
@@ -562,10 +557,10 @@
 		273B6E7E9FC1C77AADBB7E76641EB718 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E10320C6CBCC7159B59415EC758E389D /* FengEditor */,
-				8972E4AED555E2E531D50E10E04AB56B /* FengEditor-FengEditor */,
-				A8B6320543330D7DB1F71939EB2A4892 /* Pods-FengEditor_Example */,
-				18761D573825168D0D69BFA2C3E87FFF /* Pods-FengEditor_Tests */,
+				E10320C6CBCC7159B59415EC758E389D /* FengEditor.framework */,
+				8972E4AED555E2E531D50E10E04AB56B /* FengEditor.bundle */,
+				A8B6320543330D7DB1F71939EB2A4892 /* Pods_FengEditor_Example.framework */,
+				18761D573825168D0D69BFA2C3E87FFF /* Pods_FengEditor_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -627,7 +622,6 @@
 				0E2C2461840E00511142C02800F85FC3 /* Base */,
 				7990109F84BE447ED026589040358EA2 /* Implementations */,
 			);
-			name = ElementsToAttributedString;
 			path = ElementsToAttributedString;
 			sourceTree = "<group>";
 		};
@@ -637,7 +631,6 @@
 				A4F49587102450124F587AD921BB9941 /* Data */,
 				DC3FCD1B071911C9F55885F33CE5E37C /* Logic */,
 			);
-			name = DOM;
 			path = DOM;
 			sourceTree = "<group>";
 		};
@@ -664,7 +657,6 @@
 				EF21F977462ADFC6379ED8E20BE9A7F9 /* ItalicElementAttributeConverter.swift */,
 				D9CB9B20AA413C0FD2CF3AE50ECB7046 /* UnderlineElementAttributeConverter.swift */,
 			);
-			name = Implementations;
 			path = Implementations;
 			sourceTree = "<group>";
 		};
@@ -684,7 +676,6 @@
 				84FBDC9BAD4CE6C2EEA252A27A2F20A4 /* ItalicStringAttributeConverter.swift */,
 				6F0AF060E0EC02099768865638E9C840 /* UnderlineStringAttributeConverter.swift */,
 			);
-			name = Implementations;
 			path = Implementations;
 			sourceTree = "<group>";
 		};
@@ -698,7 +689,6 @@
 				00394674CE657319EA5EAA374834937C /* InNodeConverter.swift */,
 				D3567ABD8454DC5C34AAF52808C59F0F /* InNodesConverter.swift */,
 			);
-			name = In;
 			path = In;
 			sourceTree = "<group>";
 		};
@@ -714,7 +704,6 @@
 				5927E50147BC0AC9261310F10A4502E2 /* ImageElementConverter.swift */,
 				5601F49ECEE8D18C58D95221DDEF77F4 /* VideoElementConverter.swift */,
 			);
-			name = Implementations;
 			path = Implementations;
 			sourceTree = "<group>";
 		};
@@ -740,7 +729,6 @@
 				BCFD79D87EA124D9F3659987B7F7A56F /* AttachmentToElementConverter */,
 				AF67D76FDE6F910B9223C1C5CE6FC276 /* ParagraphPropertyConverters */,
 			);
-			name = Conversions;
 			path = Conversions;
 			sourceTree = "<group>";
 		};
@@ -749,7 +737,6 @@
 			children = (
 				FBEA9D058E341E17081146BB55E25A42 /* ElementToStringConverter.swift */,
 			);
-			name = Base;
 			path = Base;
 			sourceTree = "<group>";
 		};
@@ -775,7 +762,6 @@
 			children = (
 				0A1B33B2650E9A1DAC4D9CE622068B1D /* HTMLSerializer.swift */,
 			);
-			name = Out;
 			path = Out;
 			sourceTree = "<group>";
 		};
@@ -801,7 +787,6 @@
 				2D5637E5369EA3AE121B6B77D47ADC46 /* ParagraphProperty.swift */,
 				F461F5A52A3A901570CDF71E26378C50 /* TextList.swift */,
 			);
-			name = ParagraphProperty;
 			path = ParagraphProperty;
 			sourceTree = "<group>";
 		};
@@ -846,7 +831,6 @@
 				EA973EBA995EAE5B49F7626AEAC1D05C /* Node.swift */,
 				ED39209F564246FECD0DAA4C86875547 /* TextNode.swift */,
 			);
-			name = Data;
 			path = Data;
 			sourceTree = "<group>";
 		};
@@ -856,7 +840,6 @@
 				D0C80A27997D1820392CDC404A9CC9F3 /* HTMLRepresentation.swift */,
 				0F36D3195D5E3B881B54577B7352158B /* UnsupportedHTML.swift */,
 			);
-			name = Attributes;
 			path = Attributes;
 			sourceTree = "<group>";
 		};
@@ -868,7 +851,6 @@
 				A541F39CB7FF121071FE89E0F460A61C /* ItalicCSSAttributeMatcher.swift */,
 				5DCD97CE9FE1613AFDFFC57D518E78F8 /* UnderlineCSSAttributeMatcher.swift */,
 			);
-			name = CSS;
 			path = CSS;
 			sourceTree = "<group>";
 		};
@@ -877,7 +859,6 @@
 			children = (
 				BB508142FB7C483A316F9631854AC5EA /* ConditionalItalicStringAttributeConverter.swift */,
 			);
-			name = ConditionalConverters;
 			path = ConditionalConverters;
 			sourceTree = "<group>";
 		};
@@ -886,7 +867,6 @@
 			children = (
 				0AB77257513D59869A5600F725E2B8F3 /* Base */,
 			);
-			name = ParagraphPropertyConverters;
 			path = ParagraphPropertyConverters;
 			sourceTree = "<group>";
 		};
@@ -898,7 +878,6 @@
 				239247AF5F8E1A43D9B158B14D986A4E /* FormatBarItem.swift */,
 				03A45051F5DA99819A1D81DCB48A52DC /* FormattingIdentifier.swift */,
 			);
-			name = FormatBar;
 			path = FormatBar;
 			sourceTree = "<group>";
 		};
@@ -955,7 +934,6 @@
 				50321E0F7FB9BE4209A7A8B6F0E65E4B /* VideoAttachmentToElementConverter.swift */,
 				DBCF566F24482935E6A51A7AC9E8DE21 /* Base */,
 			);
-			name = AttachmentToElementConverter;
 			path = AttachmentToElementConverter;
 			sourceTree = "<group>";
 		};
@@ -974,7 +952,6 @@
 			children = (
 				2C24208C07CC2FAE244315FE22982742 /* GenericElementToTagConverter.swift */,
 			);
-			name = Implementations;
 			path = Implementations;
 			sourceTree = "<group>";
 		};
@@ -993,7 +970,6 @@
 				BD821D4AE03F92EF2E392F81009BA5A5 /* ConditionalStringAttributeConverter.swift */,
 				42F91B9551FAE79A487668C7EA75E3D7 /* StringAttributeConverter.swift */,
 			);
-			name = Base;
 			path = Base;
 			sourceTree = "<group>";
 		};
@@ -1024,7 +1000,6 @@
 				053210E2BE2BDFF469E308332F4695BC /* ParagraphAttributeFormatter.swift */,
 				B1DCE2655D059E6CD5BEBE34A8A2AF7C /* StandardAttributeFormatter.swift */,
 			);
-			name = Base;
 			path = Base;
 			sourceTree = "<group>";
 		};
@@ -1033,7 +1008,6 @@
 			children = (
 				CBD0B0AC27998FA7D4AD79409DBC4765 /* AttachmentToElementConverter.swift */,
 			);
-			name = Base;
 			path = Base;
 			sourceTree = "<group>";
 		};
@@ -1052,7 +1026,6 @@
 			children = (
 				AC0D8911BF9695C326D71EAD64912EF1 /* CSS */,
 			);
-			name = Logic;
 			path = Logic;
 			sourceTree = "<group>";
 		};
@@ -1062,7 +1035,6 @@
 				744DCFFBCDA17C0C16A1B221044007CF /* In */,
 				91027262F332BD2130CDB6E853F4B799 /* Out */,
 			);
-			name = Converters;
 			path = Converters;
 			sourceTree = "<group>";
 		};
@@ -1073,7 +1045,6 @@
 				AEDD1DCE892E5D294E8EEA16C9A45434 /* ConditionalConverters */,
 				6664F7746215CE08EC4E8270E250B03A /* Implementations */,
 			);
-			name = StringAttributesToAttributes;
 			path = StringAttributesToAttributes;
 			sourceTree = "<group>";
 		};
@@ -1083,7 +1054,6 @@
 				6018B8E908AE622A13926732AEFFB4AA /* CLinkedListToArrayConverter.swift */,
 				6EFC6E035B5D63E9097322834D0AD028 /* Converter.swift */,
 			);
-			name = HTMLToElements;
 			path = HTMLToElements;
 			sourceTree = "<group>";
 		};
@@ -1093,7 +1063,6 @@
 				81960B31DC7DAA090554ED26E541C0AF /* ElementAttributeConverter.swift */,
 				0513EF30604CF5990C808FF225D97A05 /* MainAttributesConverter.swift */,
 			);
-			name = Base;
 			path = Base;
 			sourceTree = "<group>";
 		};
@@ -1143,7 +1112,7 @@
 			);
 			name = "Pods-FengEditor_Example";
 			productName = Pods_FengEditor_Example;
-			productReference = A8B6320543330D7DB1F71939EB2A4892 /* Pods-FengEditor_Example */;
+			productReference = A8B6320543330D7DB1F71939EB2A4892 /* Pods_FengEditor_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		7DC8470F2184E343D95D3E096358D5EF /* Pods-FengEditor_Tests */ = {
@@ -1162,7 +1131,7 @@
 			);
 			name = "Pods-FengEditor_Tests";
 			productName = Pods_FengEditor_Tests;
-			productReference = 18761D573825168D0D69BFA2C3E87FFF /* Pods-FengEditor_Tests */;
+			productReference = 18761D573825168D0D69BFA2C3E87FFF /* Pods_FengEditor_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A9760E24E36414450314EAF9327C8A61 /* FengEditor-FengEditor */ = {
@@ -1179,7 +1148,7 @@
 			);
 			name = "FengEditor-FengEditor";
 			productName = FengEditor;
-			productReference = 8972E4AED555E2E531D50E10E04AB56B /* FengEditor-FengEditor */;
+			productReference = 8972E4AED555E2E531D50E10E04AB56B /* FengEditor.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		DC01890DB81C479AB8DA9146DEFCF886 /* FengEditor */ = {
@@ -1198,7 +1167,7 @@
 			);
 			name = FengEditor;
 			productName = FengEditor;
-			productReference = E10320C6CBCC7159B59415EC758E389D /* FengEditor */;
+			productReference = E10320C6CBCC7159B59415EC758E389D /* FengEditor.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -1208,7 +1177,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1300;
-				LastUpgradeCheck = 1300;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					A9760E24E36414450314EAF9327C8A61 = {
+						DevelopmentTeam = 9C4LT4369B;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1244,7 +1218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				963AE42462F2C9F9441E87FA1366C907 /* FengEditor-FengEditor in Resources */,
+				963AE42462F2C9F9441E87FA1366C907 /* FengEditor.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1492,7 +1466,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/FengEditor/FengEditor-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/FengEditor/FengEditor-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/FengEditor/FengEditor.modulemap";
 				PRODUCT_MODULE_NAME = FengEditor;
@@ -1523,7 +1497,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/FengEditor/FengEditor-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/FengEditor/FengEditor-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/FengEditor/FengEditor.modulemap";
 				PRODUCT_MODULE_NAME = FengEditor;
@@ -1555,7 +1529,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-FengEditor_Tests/Pods-FengEditor_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-FengEditor_Tests/Pods-FengEditor_Tests.modulemap";
@@ -1607,6 +1581,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -1622,13 +1597,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -1650,7 +1624,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-FengEditor_Tests/Pods-FengEditor_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-FengEditor_Tests/Pods-FengEditor_Tests.modulemap";
@@ -1684,7 +1658,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-FengEditor_Example/Pods-FengEditor_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-FengEditor_Example/Pods-FengEditor_Example.modulemap";
@@ -1717,7 +1691,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-FengEditor_Example/Pods-FengEditor_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-FengEditor_Example/Pods-FengEditor_Example.modulemap";
@@ -1770,6 +1744,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -1788,7 +1763,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1806,9 +1781,10 @@
 			baseConfigurationReference = BE2FD9B7BA00FBB9BFD50E34B08DB663 /* FengEditor.debug.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FengEditor";
+				DEVELOPMENT_TEAM = 9C4LT4369B;
 				IBSC_MODULE = FengEditor;
 				INFOPLIST_FILE = "Target Support Files/FengEditor/ResourceBundle-FengEditor-FengEditor-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = FengEditor;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1822,9 +1798,10 @@
 			baseConfigurationReference = F69C4CE3A885CF07D0B719D60CCAE7B8 /* FengEditor.release.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FengEditor";
+				DEVELOPMENT_TEAM = 9C4LT4369B;
 				IBSC_MODULE = FengEditor;
 				INFOPLIST_FILE = "Target Support Files/FengEditor/ResourceBundle-FengEditor-FengEditor-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = FengEditor;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;

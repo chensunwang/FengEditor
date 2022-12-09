@@ -40,7 +40,7 @@ extension ParagraphAttributeFormatter {
         
         text.enumerateAttributes(in: rangeToApply, options: []) { (attributes, range, stop) in
             let currentAttributes = text.attributes(at: range.location, effectiveRange: nil)
-            var attributes = remove(from: currentAttributes)
+            let attributes = remove(from: currentAttributes)
             if let paragraphStyle = attributes[.paragraphStyle] as? ParagraphStyle,
                 paragraphStyle.headerLevel != 5 {
                 // MARK: FIX BUG: 1000272
