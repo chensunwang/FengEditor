@@ -1,5 +1,5 @@
 PODS:
-  - FengEditor (0.0.2)
+  - FengEditor (0.0.4)
 
 DEPENDENCIES:
   - FengEditor (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FengEditor: cb1539d292b0891b5db702113a8c166b28f0ca18
+  FengEditor: 6426f5557aeabd6ba8b402c4f22d1d744bd73dff
 
 PODFILE CHECKSUM: bfe85b50962910ae5aa9cec902ccc0262eec80bf
 
-COCOAPODS: 1.11.3
+COCOAPODS: 1.15.2

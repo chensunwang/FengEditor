@@ -292,10 +292,10 @@ open class TextView: UITextView {
     ///
     open var linkTextAttributesSwifted: [NSAttributedString.Key: Any] {
         get {
-            return linkTextAttributes//NSAttributedString.Key.convertFromRaw(convertFromOptionalNSAttributedStringKeyDictionary(linkTextAttributes)!)
+            return NSAttributedString.Key.convertFromRaw(convertFromOptionalNSAttributedStringKeyDictionary(linkTextAttributes)!) // linkTextAttributes
         }
         set {
-            linkTextAttributes = newValue//convertToOptionalNSAttributedStringKeyDictionary(NSAttributedString.Key.convertToRaw(newValue))
+            linkTextAttributes = convertToOptionalNSAttributedStringKeyDictionary(NSAttributedString.Key.convertToRaw(newValue)) // newValue
         }
     }
 

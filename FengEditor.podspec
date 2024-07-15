@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FengEditor'
-  s.version          = '0.0.3'
+  s.version          = '0.0.4'
   s.summary          = 'Wei feng post special editor.'
 
 # This description is used to generate tags and improve search results.
@@ -49,7 +49,7 @@ end
 
 # 2.进入Example文件夹，执行pod install
 
-# 3.版本号更改  s.version = '0.0.3'
+# 3.版本号更改  s.version = '0.0.4'
 
 # 验证类库 cd 到含有FengEditor.podspec 文件下
 # 4.本地校验  pod lib lint FengEditor.podspec --use-libraries --allow-warnings --verbose --no-clean
@@ -58,8 +58,8 @@ end
 ## 5.1  git add .
 ## 5.2  git commit -m 'change pod version'
 ## 5.3  git push
-## 5.4  git tag -a 0.0.3 -m 'add tag 0.0.3'
-## 5.5  git push origin 0.0.3
+## 5.4  git tag -a 0.0.4 -m 'add tag 0.0.4'
+## 5.5  git push origin 0.0.4
 
 # 6.远程校验  pod spec lint FengEditor.podspec --use-libraries --allow-warnings --verbose --no-clean
 
