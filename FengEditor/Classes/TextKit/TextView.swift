@@ -2088,6 +2088,9 @@ extension TextView: TextStorageAttachmentsDelegate {
     }
 
     func storage(_ storage: TextStorage, imageFor attachment: NSTextAttachment, with size: CGSize) -> UIImage? {
+        guard textAttachmentImageProvider.count > 0 else {
+            return nil
+        }
         let provider = textAttachmentImageProvider.first { provider in
             return provider.textView(self, shouldRender: attachment)
         }
@@ -2100,6 +2103,9 @@ extension TextView: TextStorageAttachmentsDelegate {
     }
 
     func storage(_ storage: TextStorage, boundsFor attachment: NSTextAttachment, with lineFragment: CGRect) -> CGRect {
+        guard textAttachmentImageProvider.count > 0 else {
+            return CGRect.zero
+        }
         let provider = textAttachmentImageProvider.first {
             $0.textView(self, shouldRender: attachment)
         }
